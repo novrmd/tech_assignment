@@ -7,9 +7,9 @@
 
 DHT dht(DHT_PIN, DHT_TYPE);
 
-const char* ssid = "nun kochi";  
-const char* password = "torojoyo"; 
-const char* serverUrl = "http://192.168.43.20:5000/data";  
+const char* ssid = "nun kochi";  // Your WiFi SSID
+const char* password = "torojoyo";  // Your WiFi password
+const char* serverUrl = "http://192.168.43.20:5000/data";  // URL of the server to send data
 
 void setup() {
   Serial.begin(115200);
